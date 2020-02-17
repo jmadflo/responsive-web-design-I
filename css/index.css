@@ -358,7 +358,7 @@ footer .some-facts {
 
     footer .some-facts {
         width: 80%;
-        margin-bottom: 25px;
+        margin: 25px 0;
     }
     .some-facts h2 {
         padding-top: 0px;
