@@ -198,7 +198,7 @@ section p {
 
 /* Footer */
 
-footer h2 {
+.footer h2 {
 	padding-top: 25px;
 }
 
@@ -294,7 +294,7 @@ footer .some-facts {
 /* Media queries */
 
 @media (max-width:800px){
-
+    /* Home Page */
     header {
         height: 120px;
     }
@@ -334,10 +334,46 @@ footer .some-facts {
     #first {
         padding-left: 0%;
     }
+    
+    /* Services Page */
+
+    #logo a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #services-first-sect {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-footer {
+        margin-top: 0;
+    }
+
+
+    footer .some-facts {
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    .some-facts h2 {
+        padding-top: 0px;
+    }
+
+    footer .footer-sect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 500px) {
-    
+    /* Home Page */
     header {
         height: 270px;
     }
@@ -362,4 +398,16 @@ footer .some-facts {
         padding-bottom : 6%;
     }
     
+    /* Services Page */
+    
+
+    #outer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-block {
+        width: 80%;
+    }
+
 }
