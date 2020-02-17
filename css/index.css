@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 * {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 body {
@@ -313,7 +313,7 @@ footer .some-facts {
     .logo {
         width: 60%;
         margin: 0 auto;
-        padding: 5% 0 1% 0;
+        padding: 5% 0 5% 0;
     }
     #logo {
         width:100%;
@@ -336,6 +336,30 @@ footer .some-facts {
     }
 }
 
-@media {
+@media (max-width: 500px) {
+    
+    header {
+        height: 270px;
+    }
+
+    #links {
+        flex-direction: column;
+    }
+    #links a {
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 8px;
+    }
+
+    .content-row {
+        flex-wrap: wrap;
+    }
+
+    #middle-top div, #middle-bottom div {
+        width: 80%;
+        padding-bottom : 6%;
+    }
     
 }
