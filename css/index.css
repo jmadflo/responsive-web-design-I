@@ -211,7 +211,8 @@ footer .copy-right{
 /* Unique to Services page below */
 
 #services-header-img {
-	margin-top: 20px;
+    margin-top: 20px;
+    width: 100%;
 }
 #services-first-sect {
 	margin: 20px 0;
